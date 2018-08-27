@@ -5,7 +5,7 @@
 
 # Start of this crude makefile
 exec = read_ocn_obs.x
-#objects = rd_wr_prof.o netcdf_read_write_.o read_ocn_obs.o rd_trak.o rd_swh.o rd_ship.o error_exit.o rd_wr_prof.mod netcdf_read_write_.mod
+
 objects = rd_wr_prof.o netcdf_read_write_.o read_ocn_obs.o rd_trak.o rd_swh.o rd_ship.o error_exit.o 
 
 BASEDIR = /discover/nobackup/projects/gmao/share/gmao_ops/Baselibs/v4.0.11_build1/x86_64-unknown-linux-gnu/ifort_18.0.1.163-mpt_2.17/Linux
